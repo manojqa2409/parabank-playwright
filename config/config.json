@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://parabank.parasoft.com/",
+    "apiUrl": "https://parabank.parasoft.com/parabank/services/bank/",
+    "defaultWaitTime": 5000
+  }

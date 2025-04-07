@@ -1,0 +1,25 @@
+{
+  "name": "parabank-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "ParaBank Automation Framework with Playwright",
+"scripts": {
+  "test": "playwright test",
+  "test:ui": "playwright test --project=chromium",
+  "test:api": "playwright test tests/api --project=chromium",
+  "test:report": "playwright test --reporter=line,allure-playwright",
+  "allure:generate": "allure generate allure-results --clean",
+  "allure:open": "allure open allure-report",
+  "allure:serve": "allure serve allure-results"
+},
+  "keywords": [],
+  "author": "Manoj Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^3.2.1"
+  }
+}
